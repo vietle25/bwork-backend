@@ -1,0 +1,42 @@
+spring.jpa.properties.hibernate.show_sql=false
+spring.jpa.properties.hibernate.format_sql=false
+spring.jpa.properties.hibernate.max_fetch_depth=1
+spring.jpa.show-sql=false
+
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS = false
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss.SSSZZZ
+spring.jackson.time-zone=GMT+00:00
+
+spring.security.user.password=123
+
+spring.redis.password=
+spring.redis.port=6379
+spring.redis.host=192.168.20.10
+
+logging.level.org.hibernate=ERROR
+logging.level.org.springframework.boot=INFO
+
+server.port=${port:8081}
+
+app.paging.pageSize.default=10
+app.paging.pageSize.maxPageSize=100
+app.datetime.format.default=yyyy-MM-dd HH:mm:ss.SSSSSSZZZ
+app.cache.timeout.seconds.default=172800
+app.trusted.client=35.199.183.172,127.0.0.1,0:0:0:0:0:0:0:1,192.168.33.0-192.168.33.255
+
+spring.datasource.name=ieltshub
+spring.datasource.url=jdbc:postgresql://localhost:54320/testuru_0510?currentSchema=main
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.tomcat.logAbandoned=true
+
+app.static.server.host=http://35.199.183.172:9500
+app.static.image.path=http://35.199.183.172:9500/w/media/display/resize
+app.email.username=some email
+app.email.password=some password
+app.static.resource.physical.path=
+app.static.internal.resource.physical.path=
+
+
+firebase.database.url=
+firebase.service.account.path=
